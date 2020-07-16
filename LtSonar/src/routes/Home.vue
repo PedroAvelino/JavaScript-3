@@ -80,7 +80,7 @@ Copyright (c) 2018. Scott Henshaw, Kibble Online Inc. All Rights Reserved.
     .home {
         margin:2vw;
         border: 1px solid black;
-        background-color: lightgray;
+        background-color: rgb(20, 20, 20);
         color: black;
         height: 78vh;
         width: 80vw;

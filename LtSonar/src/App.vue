@@ -64,7 +64,7 @@
     * { margin: 0; padding: 0; }
 
     body {
-        background-color: rgb(194, 193, 193);
+        background-color: rgb(37, 37, 37);
         font-family: 'Maven Pro', Helvetica, sans-serif;
         overflow: hidden;
     }

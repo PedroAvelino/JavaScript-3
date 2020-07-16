@@ -13,7 +13,7 @@ Copyright (c) 2018. Scott Henshaw, Kibble Online Inc. All Rights Reserved.
                 <ul id="ul-sidenav">
                     <li id="li-sidenav" v-for="(item, index) in navMenu" :key="index">
                         
-                        <div v-if="  playerName != null || playerRole != null ">
+                        <div v-if="  playerName != 'unknown' || playerRole != 'unknown' ">
                             <div v-if="item.section != 'Lobby' ">
                                 <router-link :to="{ name:item.section }">{{ item.section }}</router-link>
                             </div>
