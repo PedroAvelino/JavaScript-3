@@ -4,6 +4,7 @@
 export default class Player{
 
     constructor( name = "unknown", role = "unknown") {
+        
         this.name = name;
         this.role = role;
     }

@@ -48,6 +48,7 @@ export default {
                     //Get new name from the response data 
                     let newData = JSON.parse(responseData);
 
+                    //Set player name by the result given
                     commit('SET_NAME', newData.payload.name );
                 })
                 .catch( error => {
