@@ -5,6 +5,7 @@ VUEX Data Store.
 import Vue from 'vue'
 import Vuex from 'vuex'
 
+
 //const baseURL = `${LOCATION.PROTOCOL}//${LOCATION.HOSTNAME}:${LOCATION.PORT}`;
 //const Remote = Axios.create( { baseURL: baseURL });
 

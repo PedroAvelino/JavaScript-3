@@ -9,12 +9,13 @@ import Axios from 'axios'
 
 import Player from '@/model/Player'
 
-const baseURL = "http://localhost:3000/"
-const Remote = Axios.create({baseURL: baseURL});
+import Connection from '@/store/Connection'
 
 const ERROR_OK = 0;
 const ERROR_NAME_IN_USE = 100;
 const ERROR_ROLE_IN_USE = 101;
+
+
 
 export default {
     // PRIVATE: model state of the application, a bunch of POJS objects
@@ -30,15 +31,15 @@ export default {
     // called to do things to the state via ajax and mutations
     actions: {
 
-
         //Set name for player
         setName({ commit }, name ){
+
             
             let payload = {
                 playerName: name
             }
 
-            Remote.post("/api/player/login", payload )
+            data.post("/api/player/login", payload )
                 .then( response => response.data )
                 .then( data => (data.error ? error => { throw( error )} : data.payload ))
                 .then( responseData => {

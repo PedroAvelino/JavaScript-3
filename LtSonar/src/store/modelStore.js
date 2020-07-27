@@ -5,6 +5,8 @@ Copyright (c) 2019. Scott Henshaw, Kibble Online Inc. All Rights Reserved.
 import Vue from 'vue'
 import Vuex from 'vuex'
 
+import Connection from './Connection'
+
 //const baseURL = `${LOCATION.PROTOCOL}//${LOCATION.HOSTNAME}:${LOCATION.PORT}`;
 //const Remote = Axios.create( { baseURL: baseURL });
 
